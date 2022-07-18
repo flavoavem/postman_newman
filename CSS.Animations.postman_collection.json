@@ -1,0 +1,311 @@
+{
+	"info": {
+		"_postman_id": "a419ef19-6065-48b4-b428-baa5edb36498",
+		"name": "CSS Animations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Excercise 1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{global_URL}}/css/exercise.asp?filename=exercise_css3_animations1",
+					"host": [
+						"{{global_URL}}"
+					],
+					"path": [
+						"css",
+						"exercise.asp"
+					],
+					"query": [
+						{
+							"key": "filename",
+							"value": "exercise_css3_animations1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excercise 2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{collection_URL}}/css/exercise.asp?filename=exercise_css3_animations2",
+					"host": [
+						"{{collection_URL}}"
+					],
+					"path": [
+						"css",
+						"exercise.asp"
+					],
+					"query": [
+						{
+							"key": "filename",
+							"value": "exercise_css3_animations2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excercise 3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{envrionment_URL}}/css/exercise.asp?filename=exercise_css3_animations3",
+					"host": [
+						"{{envrionment_URL}}"
+					],
+					"path": [
+						"css",
+						"exercise.asp"
+					],
+					"query": [
+						{
+							"key": "filename",
+							"value": "exercise_css3_animations3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excercise 4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.collectionVariables.set(\"exercise4_URL\", \"https://www.w3schools.com\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{exercise4_URL}}/css/exercise.asp?filename=exercise_css3_animations4",
+					"host": [
+						"{{exercise4_URL}}"
+					],
+					"path": [
+						"css",
+						"exercise.asp"
+					],
+					"query": [
+						{
+							"key": "filename",
+							"value": "exercise_css3_animations4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excercise 5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.collectionVariables.set(\"exercise5_URL\", \"https://www.w3schools.com\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{exercise5_URL}}/css/exercise.asp?filename=exercise_css3_animations5",
+					"host": [
+						"{{exercise5_URL}}"
+					],
+					"path": [
+						"css",
+						"exercise.asp"
+					],
+					"query": [
+						{
+							"key": "filename",
+							"value": "exercise_css3_animations5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excercise 6",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.collectionVariables.set(\"exercise6_URL\", \"https://www.w3schools.com\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{exercise6_URL}}/css/exercise.asp?filename=exercise_css3_animations6",
+					"host": [
+						"{{exercise6_URL}}"
+					],
+					"path": [
+						"css",
+						"exercise.asp"
+					],
+					"query": [
+						{
+							"key": "filename",
+							"value": "exercise_css3_animations6"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.globals.set(\"global_URL\", \"https://www.w3schools.com\");",
+					"pm.environment.set(\"envrionment_URL\", \"https://www.w3schools.com\");",
+					"pm.collectionVariables.set(\"collection_URL\", \"https://www.w3schools.com\");"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "collection_test_site",
+			"value": ""
+		},
+		{
+			"key": "collection_URL",
+			"value": ""
+		},
+		{
+			"key": "exercise4_URL",
+			"value": ""
+		},
+		{
+			"key": "exercise5_URL",
+			"value": ""
+		},
+		{
+			"key": "exercise6_URL",
+			"value": ""
+		}
+	]
+}
