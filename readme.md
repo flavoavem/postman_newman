@@ -1,5 +1,5 @@
 # Postman Install
--Download Postman App
+- Download Postman App
   - https://www.postman.com/downloads/
   - https://dl.pstmn.io/download/latest/linux64
   - unpack: tar -xvf postman-9.23.3-linux-x64.tar.gz
